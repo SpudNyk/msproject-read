@@ -10,6 +10,7 @@
     "eslint": "^6.5.1"
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "tmp-promise": "^2.0.2"
   }
 }
