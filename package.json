@@ -1,0 +1,15 @@
+{
+  "name": "msproject-read",
+  "version": "0.1",
+  "description": "Can read msproject files into memory",
+  "main": "index.js",
+  "repository": "https://github.com/SpudNyk/msproject-read.git",
+  "author": "spudnyk",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  },
+  "dependencies": {
+    "tmp-promise": "^2.0.2"
+  }
+}
