@@ -13,14 +13,14 @@ const main = async args => {
     console.log(`   Date: ${current_date}`);
     console.log(`   Title: ${project_title}`);
     console.log(`   Tasks: ${tasks.length}`);
-    tasks.forEach(({name, id, start, duration, estimated, finish}) => {
+    tasks.forEach(({ name, id, start, duration, estimated, finish }) => {
         console.log(`        Name: ${name}`);
-        console.log(`        ID: ${id}`)
-        console.log(`        Estimated: ${estimated}`)
-        console.log(`        Start: ${start}`)
-        console.log(`        Finish: ${finish}`)
-        console.log(`        Duration: ${duration}`)
-    })
+        console.log(`        ID: ${id}`);
+        console.log(`        Estimated: ${estimated}`);
+        console.log(`        Start: ${start}`);
+        console.log(`        Finish: ${finish}`);
+        console.log(`        Duration: ${duration}`);
+    });
 };
 
 main(process.argv.slice(2));
